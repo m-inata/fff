@@ -14,4 +14,9 @@ public class Complex {
         this.real = real;
         this.imag = imag;
     }
+
+    @Override
+    public String toString() {
+        return "" + real + "+" + imag + "i";
+    }
 }
