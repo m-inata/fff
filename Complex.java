@@ -14,4 +14,8 @@ public class Complex {
         this.real = real;
         this.imag = imag;
     }
+
+    public String toString() {
+        return "" + real + "+" + imag + "i";
+    }
 }
